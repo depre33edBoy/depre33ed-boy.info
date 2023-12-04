@@ -1,0 +1,59 @@
+
+body {
+    background-color: #FFFAFA;
+}
+
+p {
+    font: 23px "SourceSans SemiBold";
+}
+
+main {
+    height: 100%;
+}
+
+.about {
+    width: 97%;
+    position:absolute;
+    text-align: center;
+    top: 32%;
+}
+
+.about-img {
+	max-width: 35%;
+	max-height: 420px;
+	width: auto;
+	height: auto;
+    border-radius: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.icon-img {
+	max-width: 6.67%;
+	max-height: 80px;
+	width: auto;
+	height: auto;
+}
+
+.icons {
+    margin-top: 20px;
+    text-align: center
+}
+
+.icon {
+    margin: 1%;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (orientation: landscape) {
+    .about {
+        top: 18%;
+    }
+}
+
