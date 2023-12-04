@@ -1,0 +1,66 @@
+<!DOCTYPE html><html><head>  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEPRE33ED_BOY — и его сайт-визитка с личными данными</title>
+<script>
+(function() {
+var originalTitle = document.title;
+var flashTitle = "Андрюша лучший";
+var isFlashOn = false;
+var flashInterval;
+    
+function flash() {
+document.title = isFlashOn ? originalTitle : flashTitle;
+isFlashOn = !isFlashOn;
+}
+    
+function startFlash() {
+flashInterval = setInterval(flash, 1000);
+}
+    
+function stopFlash() {
+clearInterval(flashInterval);
+document.title = originalTitle;
+}
+startFlash();
+})();
+    </script>
+<link rel="icon" href="clown.svg" type="image/x-icon">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<main>
+<div class="about">
+<img class="about-img" src="images/meow.png"><br>    
+<div class="icons">
+<a class="icon" href="https://github.com/depre33edBoy">
+<img class="icon-img" src="images/github.png" >
+</a>
+<a class="icon" href="https://t.me/depre33ed_boy">
+<img class="icon-img" src="images/tg.png">
+</a>
+<a class="icon" href="https://vk.com/depre33ed_boy">
+<img class="icon-img" src="images/vk.png">
+</a>
+<a class="icon" href="https://steamcommunity.com/id/depre33ed_boy/">
+<img class="icon-img" src="images/steam.png">
+</a>
+</div></div>
+</main>
+<script data-cfasync="false" src="js/main.js"></script>
+</body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body {
+background: #c7b39b url(images/bg.jpg);
+color: #0000;
+}
+</style>
+</head>
+<body>
+<p>...</p>
+</body>
+</html>
